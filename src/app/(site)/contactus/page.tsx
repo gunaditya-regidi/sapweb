@@ -101,21 +101,32 @@ export default function ContactUs() {
               <h3 className='text-xl font-medium text-black dark:text-white'>Bank Transfer Details</h3>
               <div className='space-y-2 text-black/80 dark:text-white/80'>
                 <p>Account Name: Saptarushi Charitable Trust</p>
-                <p>Account Number: XXXXXXXXXX</p>
-                <p>IFSC Code: XXXXXXXX</p>
-                <p>Bank: XXXXX Bank</p>
-                <p>Branch: XXXXX, Visakhapatnam</p>
+                <p>Account Number: 31034845473</p>
+                <p>IFSC Code: SBIN0002716</p>
+                <p>Bank: State Bank of India</p>
               </div>
             </div>
 
             <div className='space-y-4'>
               <h3 className='text-xl font-medium text-black dark:text-white'>Digital Payment Options</h3>
-              <div className='space-y-2 text-black/80 dark:text-white/80'>
-                <p>UPI ID: saptarushi@upi</p>
-                <p>PhonePe/Google Pay: +91 9492341294</p>
-                <div className='flex items-center gap-2 mt-4'>
-                  <Icon icon="logos:phonepe" width={24} />
-                  <Icon icon="logos:google-pay" width={40} />
+              <div className='flex gap-8 items-start'>
+                <div className='space-y-2 text-black/80 dark:text-white/80 flex-1'>
+                  <p>UPI ID: saptarushi@sbi</p>
+                  <p>PhonePe/Google Pay: +91 9492341294</p>
+                  <div className='flex items-center gap-2 mt-4'>
+                    <Icon icon="logos:phonepe" width={24} />
+                    <Icon icon="logos:google-pay" width={40} />
+                  </div>
+                </div>
+                <div className='w-48'>
+                  <Image
+                    src="/images/contactUs/qr.png"
+                    alt="QR Code"
+                    width={200}
+                    height={200}
+                    className="w-full rounded-lg"
+                    unoptimized={true}
+                  />
                 </div>
               </div>
             </div>

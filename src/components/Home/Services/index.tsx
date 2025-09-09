@@ -45,7 +45,7 @@ const Categories = () => {
             <div className="relative rounded-2xl overflow-hidden group">
               <Link href="/Veda1">
                 <Image
-                  src="/images/categories/vedic1.jpg"
+                  src="/images/categories/vedic1.JPG"
                   alt="Veda Upliftment"
                   width={680}
                   height={386}
@@ -132,7 +132,7 @@ const Categories = () => {
             <div className="relative rounded-2xl overflow-hidden group">
               <Link href="/Spiritual">
                 <Image
-                  src="/images/categories/yagam.jpg"
+                  src="/images/categories/yagam.JPG"
                   alt="office"
                   width={320}
                   height={386}
