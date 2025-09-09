@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 
 export default function ContactUs() {
   return (
-    <div className='container max-w-8xl mx-auto px-5 2xl:px-0 pt-32 md:pt-44 pb-14 md:pb-28'>
-      <div className='mb-16'>
+    <div className='container max-w-8xl mx-auto px-4 sm:px-5 2xl:px-0 pt-24 sm:pt-32 md:pt-44 pb-14 md:pb-28'>
+      <div className='mb-12 sm:mb-16'>
         <div className='flex gap-2.5 items-center justify-center mb-3'>
           <span>
             <Icon
@@ -50,29 +50,29 @@ export default function ContactUs() {
                 Saptarushi Trust Contact Info
               </h5>
               <p className='text-sm xs:text-base mobile:text-xm font-normal text-white/80'>
-                Want to volunteer, donate, or learn more about our Veda Patasala and services? Reach out to us.
+                Want to Donate, or Learn more about our services? Reach out to us.
               </p>
             </div>
-            <div className='absolute bottom-6 left-6 lg:bottom-12 lg:left-12 flex flex-col gap-4 text-white'>
-              <Link href={'/'} className='w-fit'>
-                <div className='flex items-center gap-4 group w-fit'>
-                  <Icon icon={'ph:phone'} width={32} height={32} />
-                  <p className='text-sm xs:text-base mobile:text-xm font-normal group-hover:text-primary'>
+            <div className='absolute bottom-6 left-6 lg:bottom-12 lg:left-12 flex flex-col gap-4 text-white max-w-[80%]'>
+              <Link href={'tel:+919492341294'} className='w-fit'>
+                <div className='flex items-center gap-3 group w-fit'>
+                  <Icon icon={'ph:phone'} width={24} height={24} className='flex-shrink-0' />
+                  <p className='text-sm sm:text-base font-normal group-hover:text-primary'>
                     +91 9492341294
                   </p>
                 </div>
               </Link>
-              <Link href={'/'} className='w-fit'>
-                <div className='flex items-center gap-4 group w-fit'>
-                  <Icon icon={'ph:envelope-simple'} width={32} height={32} />
-                  <p className='text-sm xs:text-base mobile:text-xm font-normal group-hover:text-primary'>
+              <Link href={'mailto:saptarushi.trust@gmail.com'} className='w-fit'>
+                <div className='flex items-center gap-3 group w-fit'>
+                  <Icon icon={'ph:envelope-simple'} width={24} height={24} className='flex-shrink-0' />
+                  <p className='text-sm sm:text-base font-normal group-hover:text-primary'>
                     saptarushi.trust@gmail.com
                   </p>
                 </div>
               </Link>
-              <div className='flex items-center gap-4'>
-                <Icon icon={'ph:map-pin'} width={32} height={32} />
-                <p className='text-sm xs:text-base mobile:text-xm font-normal'>
+              <div className='flex items-start gap-3'>
+                <Icon icon={'ph:map-pin'} width={24} height={24} className='flex-shrink-0 mt-1' />
+                <p className='text-sm sm:text-base font-normal'>
                   Saptarushi Veda Smartha Samskruta Patasala, Sri Rama Nagar, Peddagollala Palem, Sabbavaram, Visakhapatnam
                 </p>
               </div>
@@ -93,10 +93,10 @@ export default function ContactUs() {
         </div>
 
         {/* Donation Details Section */}
-        <div className='mt-10 p-6 bg-gray-50 dark:bg-gray-800/50 rounded-2xl'>
-          <h2 className='text-2xl font-semibold text-primary mb-6'>Support Our Cause</h2>
+        <div className='mt-8 sm:mt-10 p-4 sm:p-6 bg-gray-50 dark:bg-gray-800/50 rounded-2xl'>
+          <h2 className='text-xl sm:text-2xl font-semibold text-primary mb-4 sm:mb-6'>Support Our Cause</h2>
           
-          <div className='grid md:grid-cols-2 gap-8'>
+          <div className='grid md:grid-cols-2 gap-6 sm:gap-8'>
             <div className='space-y-4'>
               <h3 className='text-xl font-medium text-black dark:text-white'>Bank Transfer Details</h3>
               <div className='space-y-2 text-black/80 dark:text-white/80'>
@@ -109,8 +109,8 @@ export default function ContactUs() {
 
             <div className='space-y-4'>
               <h3 className='text-xl font-medium text-black dark:text-white'>Digital Payment Options</h3>
-              <div className='flex gap-8 items-start'>
-                <div className='space-y-2 text-black/80 dark:text-white/80 flex-1'>
+              <div className='flex flex-col sm:flex-row gap-4 sm:gap-8 items-start'>
+                <div className='space-y-2 text-black/80 dark:text-white/80 flex-1 order-2 sm:order-1'>
                   <p>UPI ID: saptarushi@sbi</p>
                   <p>PhonePe/Google Pay: +91 9492341294</p>
                   <div className='flex items-center gap-2 mt-4'>
@@ -118,7 +118,7 @@ export default function ContactUs() {
                     <Icon icon="logos:google-pay" width={40} />
                   </div>
                 </div>
-                <div className='w-48'>
+                <div className='w-36 sm:w-48 mx-auto sm:mx-0 order-1 sm:order-2'>
                   <Image
                     src="/images/contactUs/qr.png"
                     alt="QR Code"

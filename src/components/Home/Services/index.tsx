@@ -24,9 +24,9 @@ const Categories = () => {
         />
       </div>
       <div className="container max-w-8xl mx-auto px-5 2xl:px-0 relative z-10">
-        <div className="grid grid-cols-12 items-center gap-10">
-          <div className="lg:col-span-6 col-span-12">
-            <p className="text-dark/75 dark:text-white/75 text-base font-semibold flex gap-2.5">
+        <div className="grid grid-cols-12 items-center gap-6 sm:gap-10">
+          <div className="lg:col-span-6 col-span-12 text-center lg:text-left">
+            <p className="text-dark/75 dark:text-white/75 text-base font-semibold flex gap-2.5 justify-center lg:justify-start">
               <Icon icon="mdi:om" className="text-2xl text-primary " />
               Our Initiatives
             </p>
@@ -37,7 +37,7 @@ const Categories = () => {
             <p className="text-dark/50 dark:text-white/50 text-lg lg:max-w-full leading-[1.3] md:max-w-3/4">
               At Saptarushi Charitable Trust, every initiative is rooted in Sanatana Dharma. From Vedic education to daily seva, we serve with devotion, tradition, and purpose.
             </p>
-            <Link href="/services" className="py-4 px-8 bg-primary text-base leading-4 block w-fit text-white rounded-full font-semibold mt-8 hover:bg-dark duration-300">
+            <Link href="/services" className="py-4 px-8 bg-primary text-base leading-4 block w-fit text-white rounded-full font-semibold mt-8 hover:bg-dark duration-300 mx-auto lg:mx-0">
               View Our Services
             </Link>
           </div>
@@ -53,13 +53,13 @@ const Categories = () => {
                   unoptimized={true}
                 />
               </Link>
-              <Link href="/Veda1" className="absolute w-full h-full bg-gradient-to-b from-black/0 to-black/80 top-full flex flex-col justify-between pl-10 pb-10 group-hover:top-0 duration-500">
+              <Link href="/Veda1" className="absolute w-full h-full bg-gradient-to-b from-black/0 to-black/80 top-full flex flex-col justify-between p-4 sm:pl-10 sm:pb-10 group-hover:top-0 duration-500">
                 <div className="flex justify-end mt-6 mr-6">
                   <div className="bg-white text-dark rounded-full w-fit p-4">
                     <Icon icon="ph:arrow-right" width={24} height={24} />
                   </div>
                 </div>
-                <div className="flex flex-col gap-2.5">
+                <div className="flex flex-col gap-2.5 max-w-[90%]">
                   <h3 className="text-white text-2xl">
                     Vedic Upliftment
                   </h3>
@@ -82,7 +82,7 @@ const Categories = () => {
                   unoptimized={true}
                 />
               </Link>
-              <Link href="/DharmaSeva" className="absolute w-full h-full bg-gradient-to-b from-black/0 to-black/80 top-full flex flex-col justify-between pl-10 pb-10 group-hover:top-0 duration-500">
+              <Link href="/DharmaSeva" className="absolute w-full h-full bg-gradient-to-b from-black/0 to-black/80 top-full flex flex-col justify-between p-4 sm:pl-10 sm:pb-10 group-hover:top-0 duration-500">
                 <div className="flex justify-end mt-6 mr-6">
                   <div className="bg-white text-dark rounded-full w-fit p-4">
                     <Icon icon="ph:arrow-right" width={24} height={24} />
@@ -111,7 +111,7 @@ const Categories = () => {
                   unoptimized={true}
                 />
               </Link>
-              <Link href="/Samskrutha" className="absolute w-full h-full bg-gradient-to-b from-black/0 to-black/80 top-full flex flex-col justify-between pl-10 pb-10 group-hover:top-0 duration-500">
+              <Link href="/Samskrutha" className="absolute w-full h-full bg-gradient-to-b from-black/0 to-black/80 top-full flex flex-col justify-between p-4 sm:pl-10 sm:pb-10 group-hover:top-0 duration-500">
                 <div className="flex justify-end mt-6 mr-6">
                   <div className="bg-white text-dark rounded-full w-fit p-4">
                     <Icon icon="ph:arrow-right" width={24} height={24} />
@@ -140,7 +140,7 @@ const Categories = () => {
                   unoptimized={true}
                 />
               </Link>
-              <Link href="/Spiritual" className="absolute w-full h-full bg-gradient-to-b from-black/0 to-black/80 top-full flex flex-col justify-between pl-10 pb-10 group-hover:top-0 duration-500">
+              <Link href="/Spiritual" className="absolute w-full h-full bg-gradient-to-b from-black/0 to-black/80 top-full flex flex-col justify-between p-4 sm:pl-10 sm:pb-10 group-hover:top-0 duration-500">
                 <div className="flex justify-end mt-6 mr-6">
                   <div className="bg-white text-dark rounded-full w-fit p-4">
                     <Icon icon="ph:arrow-right" width={24} height={24} />
