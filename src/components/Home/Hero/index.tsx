@@ -15,9 +15,11 @@ const Hero: React.FC = () => {
               <Link href="/contactus" className='px-8 py-4 border border-white dark:border-dark bg-white dark:bg-dark text-dark dark:text-white duration-300 dark:hover:text-dark hover:bg-transparent hover:text-indigo-800 hover:border-indigo-800 text-base font-semibold rounded-full hover:cursor-pointer'>
                 Get in touch
               </Link>
+              <Link href="/aboutus">
               <button className='px-8 py-4 border border-indigo-800 dark:border-dark bg-transparent text-indigo-800 dark:text-dark hover:bg-white dark:hover:bg-dark dark:hover:text-white hover:text-dark duration-300 text-base font-semibold rounded-full hover:cursor-pointer'>
                 View Details
               </button>
+              </Link>
             </div>
           </div>
           <div className='hidden md:block absolute -top-2 -right-10'>
