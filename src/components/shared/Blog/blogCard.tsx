@@ -19,7 +19,7 @@ const BlogCard: FC<{ blog: Blog }> = ({ blog }) => {
                     unoptimized={true}
                 />
             </div>
-            <div className="flex justify-between items-center">
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mt-4 gap-3 sm:gap-0">
                 <div>
                     <h3 className="mt-2 text-xl font-medium text-dark dark:text-white group-hover:text-primary">
                         {title}
@@ -28,7 +28,7 @@ const BlogCard: FC<{ blog: Blog }> = ({ blog }) => {
                         {format(new Date(date), "MM, dd, yyyy")}
                     </span>
                 </div>
-                <div className="py-2.5 px-5 bg-dark/5 rounded-full dark:bg-white/15">
+                <div className="py-2 px-4 sm:py-2.5 sm:px-5 bg-dark/5 rounded-full dark:bg-white/15 text-center">
                     <p className="text-sm font-semibold text-dark dark:text-white">{tag}</p>
                 </div>
             </div>
