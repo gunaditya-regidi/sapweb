@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title:
-        "Blog Grids | Homely ",
+        "Saptarushi Charitable Trust",
 };
 
 const Blog = () => {

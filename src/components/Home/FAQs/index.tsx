@@ -10,7 +10,7 @@ import {
 const FAQ: React.FC = () => {
     return (
         <section id='faqs'>
-            <div className='container max-w-8xl mx-auto px-5 2xl:px-0'>
+            {/* <div className='container max-w-8xl mx-auto px-5 2xl:px-0'>
                 <div className="grid lg:grid-cols-2 gap-10 ">
                     <div className='lg:mx-0 mx-auto'>
                         <Image
@@ -57,7 +57,7 @@ const FAQ: React.FC = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </section>
     );
 };
