@@ -494,7 +494,7 @@ In today’s fast-paced world, spiritual grounding is essential. Our classes hel
     area: 120,
     images: [
       {
-        src: "/images/properties/property8/image-1.jpg",
+        src: "/images/properties/property8/image-1.JPG",
       },
       {
         src: "/images/properties/property8/image-2.jpg"
