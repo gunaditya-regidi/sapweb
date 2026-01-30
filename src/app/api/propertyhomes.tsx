@@ -114,16 +114,16 @@ Let’s take a step together — for Dharma, for our temples, and for future gen
   {
     name: 'Nitya Veda Nadam',
     slug: 'nitya-veda-nadam',
-    location: 'Supporting Daily Vedic chanting by Pandits at Less familiar & Important temples',
-    rate: 'Uplifting Unemployed Veda Pandits and Improving the Temples popularity through Vedic Awareness',
+    location: 'Supporting Daily Vedic chanting by Pandits at Rural & Local Important temples',
+    rate: 'Uplifting Vedic Awareness with Veda Pandits Chanting Chatur Veda's and Improving the Temples popularity through Vedic Wisdom',
     beds: <span>🕉️ Nitya Veda Nādam – A Daily Offering of Sacred Sound<br></br><br></br>
 
-“Vedas are not just scriptures — they are the eternal sound of Dharma. Nitya Veda Nādam ensures this divine sound never fades.”
+“Vedas are not just scriptures — they are the eternal sound of Dharma. Nitya Veda Nādam ensures this divine sound continue to enlighten.”
 <br></br><br></br>
 Spearheaded by Dr. M. Madhav Sharma Garu and blessed by revered Gurus, Nitya Veda Nādam is a noble initiative by Saptarushi Charitable Trust that ensures daily Vedic chanting in temples across India, especially in those where silence had replaced sacred sound.
 <br></br><br></br>
 📿 What is Nitya Veda Nādam?<br></br>
-It is a daily Vedic chanting service performed in temples — bringing back the spiritual rhythm of mantras, rituals, and divine vibrations. This program supports unemployed Vedic pandits, giving them a stable livelihood and platform to serve Dharma through their knowledge.
+It is a daily Vedic chanting service performed in temples — bringing back the spiritual rhythm of mantras, rituals, and divine vibrations. This program supports 8-10 year Experienced Vedic pandits, giving them a stable livelihood and platform to serve Dharma through their knowledge.
 <br></br><br></br>
 🌟 Key Objectives:<br></br>
 
@@ -146,7 +146,7 @@ Gradually expanding to multiple states including Andhra Pradesh, Telangana, Karn
 Public support helps us reach more temples every month<br></br><br></br>
 
 🎓 Who Performs the Chanting?<br></br>
-Unemployed but highly trained Vedic pandits and young scholars from the Saptarushi Veda Patasala, who dedicate themselves to the path of Dharma. This initiative not only preserves Vedic traditions but also improves the economic and social well-being of these guardians of ancient wisdom.
+Highly trained Vedic pandits and young scholars from the Saptarushi Veda Patasala, who dedicate themselves to the path of Dharma. This initiative not only preserves Vedic traditions but also improves the economic and social well-being of these guardians of ancient wisdom.
 <br></br><br></br>
 🙏 Let us come together to protect the sound of the Vedas — every day, in every temple.
 <br></br><br></br>
