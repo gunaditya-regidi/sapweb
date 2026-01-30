@@ -115,7 +115,7 @@ Let’s take a step together — for Dharma, for our temples, and for future gen
     name: 'Nitya Veda Nadam',
     slug: 'nitya-veda-nadam',
     location: 'Supporting Daily Vedic chanting by Pandits at Rural & Local Important temples',
-    rate: 'Uplifting Vedic Awareness with Veda Pandits Chanting Chatur Veda's and Improving the Temples popularity through Vedic Wisdom',
+    rate: 'Uplifting Vedic Awareness with Veda Pandits Chanting Chatur Vedas and Improving the Temples popularity through Vedic Wisdom',
     beds: <span>🕉️ Nitya Veda Nādam – A Daily Offering of Sacred Sound<br></br><br></br>
 
 “Vedas are not just scriptures — they are the eternal sound of Dharma. Nitya Veda Nādam ensures this divine sound continue to enlighten.”
