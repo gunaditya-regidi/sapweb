@@ -156,16 +156,16 @@ Highly trained Vedic pandits and young scholars from the Saptarushi Veda Patasal
     area: 180,
     images: [
       {
-        src: "/images/properties/property3/image-2.jpeg",
+        src: "/images/properties/property3/i2.jpg",
       },
       {
-        src: "/images/properties/property3/image-1.jpg"
+        src: "/images/properties/property3/Saptar.jpg"
       },
       {
         src: "/images/properties/property3/image-3.jpeg"
       },
       {
-        src: "/images/properties/property3/image-4.jpeg"
+        src: "/images/properties/property3/i4.jpg"
       },
     ]
   },
